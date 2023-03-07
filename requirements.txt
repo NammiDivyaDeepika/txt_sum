@@ -4,6 +4,5 @@ Pillow==8.2.0
 transformers
 nltk
 stopwords
-nltk.tokenize
-nltk.corpus
+
 
