@@ -1,6 +1,6 @@
 streamlit
 streamlit_extras
-PIL
+Pillow==8.2.0
 transformers
 nltk
 stopwords
