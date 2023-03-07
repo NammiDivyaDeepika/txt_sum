@@ -4,5 +4,5 @@ Pillow==8.2.0
 transformers
 nltk
 stopwords
-
+tensorflow==2.9.2
 
