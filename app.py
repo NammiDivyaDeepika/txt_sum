@@ -9,7 +9,7 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 
 summarizer = pipeline("summarization")
 
-image = Image.open("C:\\Users\\divya\\OneDrive\\Desktop\\Work\\Vintern\\App\\Logo.png")
+image = Image.open("Logo.png")
 st.image(image)
 
 
