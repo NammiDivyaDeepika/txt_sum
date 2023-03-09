@@ -1,11 +1,7 @@
 import streamlit as st
-import streamlit_extras
 from PIL import Image
 from transformers import pipeline
-import nltk
-from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize, sent_tokenize
-#from C1 import summary
+
 
 summarizer = pipeline("summarization")
 
