@@ -1,8 +1,5 @@
 streamlit
-streamlit_extras
 Pillow==8.2.0
-transformers
-nltk
-stopwords
-tensorflow==2.9.2
-
+transformers==4.26.1
+tensorflow==2.11.0
+protobuf==4.22.1
