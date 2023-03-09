@@ -18,8 +18,6 @@ selected_option = st.selectbox("Select an option", options)
 
 if selected_option == "CODE1":
     st.write("You selected CODE1!")
-    max_lengthy = st.slider('Maximum summary length (words)', min_value=30, max_value=150, value=60, step=10)
-    num_beamer = st.slider('Speed vs quality of summary (1 is fastest)', min_value=1, max_value=8, value=4, step=1)
     text = st.text_area('Enter Text Below :(Maximum limit 300words)', height=900)
     submit = st.button('Generate') 
     if submit: 
